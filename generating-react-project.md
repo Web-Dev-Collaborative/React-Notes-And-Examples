@@ -1,20 +1,20 @@
 # Generating React Project
 
-![](.gitbook/assets/image%20%2815%29.png)
-
-![](.gitbook/assets/image%20%2820%29.png)
-
-
-
-![](.gitbook/assets/image%20%2812%29.png)
+![](.gitbook/assets/image%20%2817%29.png)
 
 ![](.gitbook/assets/image%20%2822%29.png)
 
-![](.gitbook/assets/image%20%289%29.png)
+
+
+![](.gitbook/assets/image%20%2814%29.png)
+
+![](.gitbook/assets/image%20%2824%29.png)
+
+![](.gitbook/assets/image%20%2810%29.png)
 
 Babel is a way to write ES2015 or 2016 javascript and convert it to ES5 so that it can run on any browser.
 
-![](.gitbook/assets/image%20%288%29.png)
+![](.gitbook/assets/image%20%289%29.png)
 
 ## Getting Started with Create React App <a id="getting-started-with-create-react-app"></a>
 
@@ -87,21 +87,21 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting\#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
 
-![](.gitbook/assets/image%20%2813%29.png)
+![](.gitbook/assets/image%20%2815%29.png)
+
+![](.gitbook/assets/image%20%2818%29.png)
+
+
+
+![](.gitbook/assets/image%20%2821%29.png)
+
+
+
+
 
 ![](.gitbook/assets/image%20%2816%29.png)
 
-
-
-![](.gitbook/assets/image%20%2819%29.png)
-
-
-
-
-
-![](.gitbook/assets/image%20%2814%29.png)
-
-![](.gitbook/assets/image%20%2811%29.png)
+![](.gitbook/assets/image%20%2812%29.png)
 
 
 
@@ -135,9 +135,9 @@ tree
 
 
 
-![](.gitbook/assets/image%20%2810%29.png)
+![](.gitbook/assets/image%20%2811%29.png)
 
-![](.gitbook/assets/image%20%2823%29.png)
+![](.gitbook/assets/image%20%2826%29.png)
 
 
 
@@ -181,7 +181,7 @@ import ReactDOM from 'react-dom';
 
 
 
-![](.gitbook/assets/image%20%2818%29.png)
+![](.gitbook/assets/image%20%2820%29.png)
 
 
 
@@ -239,7 +239,7 @@ npm checks the node modules folder for a folder called react and because we have
 
 
 
-![](.gitbook/assets/image%20%2821%29.png)
+![](.gitbook/assets/image%20%2823%29.png)
 
 ```javascript
 const React =require ('react');
@@ -251,7 +251,7 @@ Require: Core JS import statement: makes use of require syntax
 
 Import: ES2015 Import statement: es2015 module system... uses import syntax
 
-![](.gitbook/assets/image%20%2824%29.png)
+![](.gitbook/assets/image%20%2827%29.png)
 
 ## Create React Component:
 
@@ -277,17 +277,29 @@ _Note - If you have spaces in your project directory name, reloading throughout 
 
 \_\_
 
-![](.gitbook/assets/image%20%2824%29.png)
+![](.gitbook/assets/image%20%2827%29.png)
 
 ### Displaying Content with Functional Components:
 
+* **WHAT A REACT COMPONENT IS:**
+
+![](.gitbook/assets/image%20%2813%29.png)
+
+A component is function or a class... on codepen I deployed a class but either way's purpose is to produce html to show the user and deal with their feedback.
 
 
 
+To handle user input we employ event Handlers.
 
 
 
+![Function based component](.gitbook/assets/image%20%288%29.png)
 
+
+
+ ES6 arrow function equiv:
+
+![](.gitbook/assets/image%20%2825%29.png)
 
 
 
