@@ -1,20 +1,20 @@
 # Generating React Project
 
+![](.gitbook/assets/image%20%2815%29.png)
+
+![](.gitbook/assets/image%20%2820%29.png)
+
+
+
 ![](.gitbook/assets/image%20%2812%29.png)
 
-![](.gitbook/assets/image%20%2817%29.png)
+![](.gitbook/assets/image%20%2822%29.png)
 
-
-
-![](.gitbook/assets/image%20%2810%29.png)
-
-![](.gitbook/assets/image%20%2818%29.png)
-
-![](.gitbook/assets/image%20%288%29.png)
+![](.gitbook/assets/image%20%289%29.png)
 
 Babel is a way to write ES2015 or 2016 javascript and convert it to ES5 so that it can run on any browser.
 
-
+![](.gitbook/assets/image%20%288%29.png)
 
 ## Getting Started with Create React App <a id="getting-started-with-create-react-app"></a>
 
@@ -87,21 +87,21 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting\#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
 
-
-
 ![](.gitbook/assets/image%20%2813%29.png)
-
-
 
 ![](.gitbook/assets/image%20%2816%29.png)
 
 
 
+![](.gitbook/assets/image%20%2819%29.png)
 
+
+
+
+
+![](.gitbook/assets/image%20%2814%29.png)
 
 ![](.gitbook/assets/image%20%2811%29.png)
-
-![](.gitbook/assets/image%20%289%29.png)
 
 
 
@@ -135,9 +135,9 @@ tree
 
 
 
+![](.gitbook/assets/image%20%2810%29.png)
 
-
-![](.gitbook/assets/image%20%2819%29.png)
+![](.gitbook/assets/image%20%2823%29.png)
 
 
 
@@ -181,7 +181,7 @@ import ReactDOM from 'react-dom';
 
 
 
-![](.gitbook/assets/image%20%2815%29.png)
+![](.gitbook/assets/image%20%2818%29.png)
 
 
 
@@ -232,6 +232,232 @@ import ReactDOM from 'react-dom';
 // we could also write :
 import MyReact from 'react'; //and it would work all the same.
 ```
+
+
+
+npm checks the node modules folder for a folder called react and because we have one in our node mudules it imports the code from there.....
+
+
+
+![](.gitbook/assets/image%20%2821%29.png)
+
+```javascript
+const React =require ('react');
+```
+
+Require VS Import Statement:
+
+Require: Core JS import statement: makes use of require syntax
+
+Import: ES2015 Import statement: es2015 module system... uses import syntax
+
+![](.gitbook/assets/image%20%2824%29.png)
+
+## Create React Component:
+
+
+
+Important Note about Live Reloading
+
+There appears to be an issue in CRA in regards to fast refresh when code changes are made to the index.js file:
+
+[https://github.com/facebook/create-react-app/issues/9904](https://github.com/facebook/create-react-app/issues/9904)
+
+Manually refreshing will show the changes, also, any changes to components deeper in the file structure will cause an auto-refresh as expected.
+
+_One workaround noted suggests putting the following in the index.js which enables reloading:_
+
+```javascript
+if (module.hot) {  module.hot.accept();}
+```
+
+_Note - If you have spaces in your project directory name, reloading throughout the whole application can also fail._
+
+\_\_
+
+\_\_
+
+![](.gitbook/assets/image%20%2824%29.png)
+
+### Displaying Content with Functional Components:
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
