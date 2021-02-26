@@ -2,13 +2,13 @@
 
 ![](.gitbook/assets/image%20%2812%29.png)
 
-![](.gitbook/assets/image%20%2816%29.png)
+![](.gitbook/assets/image%20%2817%29.png)
 
 
 
 ![](.gitbook/assets/image%20%2810%29.png)
 
-![](.gitbook/assets/image%20%2817%29.png)
+![](.gitbook/assets/image%20%2818%29.png)
 
 ![](.gitbook/assets/image%20%288%29.png)
 
@@ -93,7 +93,7 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 
 
 
-![](.gitbook/assets/image%20%2815%29.png)
+![](.gitbook/assets/image%20%2816%29.png)
 
 
 
@@ -107,6 +107,57 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 
 
 
+```text
+tree
+.
+├── README.md
+├── package-lock.json
+├── package.json
+├── public
+│   ├── favicon.ico
+│   ├── index.html
+│   ├── logo192.png
+│   ├── logo512.png
+│   ├── manifest.json
+│   └── robots.txt
+└── src
+    ├── App.css
+    ├── App.js
+    ├── App.test.js
+    ├── index.css
+    ├── index.js
+    ├── logo.svg
+    ├── reportWebVitals.js
+    └── setupTests.js
+
+2 directories, 17 files
+```
+
+
+
+
+
+![](.gitbook/assets/image%20%2819%29.png)
+
+
+
+
+
+```javascript
+//! 1.)     import the react and reactDOM libraries
+import React from 'react';
+import ReactDOM from 'react-dom';
+//==> React uses a bundler package called webpack
+//===> the coe we write in index.js is not automatically available throughout the project
+//=====> The same is true of any js file and that is why we need to import them.
+
+
+
+
+
+
+
+//! 2.)     Create React Component
 
 
 
@@ -118,6 +169,37 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 
 
 
+//! 3.)       Take the react component and render it on the screen
+
+
+
+
+
+
+
+```
+
+
+
+![](.gitbook/assets/image%20%2815%29.png)
+
+
+
+```javascript
+//! 1.)     import the react and reactDOM libraries
+import React from 'react';
+import ReactDOM from 'react-dom';
+//==> React uses a bundler package called webpack
+//===> the coe we write in index.js is not automatically available throughout the project
+//=====> The same is true of any js file and that is why we need to import them.
+
+
+
+
+
+
+
+//! 2.)     Create React Component
 
 
 
@@ -129,7 +211,27 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 
 
 
+//! 3.)       Take the react component and render it on the screen
 
+
+
+
+
+
+```
+
+
+
+
+
+```javascript
+//! 1.)     import the react and reactDOM libraries
+import <<<React>>> from 'react';
+import ReactDOM from 'react-dom';
+// The name of the react import is a matter of choice
+// we could also write :
+import MyReact from 'react'; //and it would work all the same.
+```
 
 
 
